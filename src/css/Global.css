@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f1fefc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    opacity: 0.65;
+    position: relative;
+    bottom: 0;
+    width: 150px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    transition: opacity 0.3s;
+}
+
+.footer:hover {
+    opacity: 1;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    width: 12rem;
+    display: flex;
+    min-height: 15rem;
+    align-items: center;
+    text-align: center;
+    margin: 0.5rem;
+    padding-top: 1rem;
+    background-color: #f5f5f5;
+    gap: 0.5rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    gap: 0.5rem;
+}
+
+
